@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="third.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Service</h1>
+        <p>Your one-stop solution for all your needs</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </header>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <h3>Feature One</h3>
+            <p>AI Eraser, You can eraser anything in background using AI Eraser.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature Two</h3>
+            <p>META AI, AI bot installed in whatsapp used for browsing.</p>
+        </div>
+        <div class="feature">
+            <h3>Feature Three</h3>
+            <p>AI Ask,AI bot is used for any information.</p>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <blockquote>
+            <p>"This service changed my life!" - Happy Customer</p>
+        </blockquote>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: mallelalokeshremo@gmail.com</p>
+        <p>Phone: 9963603614</p>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #c0cdd4;
+    color: rgb(197, 29, 29);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cta-button {
+    background: #a3102b;
+    color: #4CAF50;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #b8e309;
+    border-radius: 8px;
+}
+
+#features {
+    background: #d288de;
+}
+
+.feature {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+blockquote {
+    background: #f1f1f1;
+    padding: 10px;
+    border-left: 5px solid #4CAF50;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333333;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TELE COMMUNICATION PRT.LIM</p>
+    </footer>
+</body>
+</html>
+
+
